@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Sidebar.css"
+import SidebarButton from './SidebarButton'
 
 function Sidebar() {
   return (
@@ -9,6 +10,15 @@ function Sidebar() {
         alt="profile-image"
         className='profile-img'
          />
+         <div>
+          <SidebarButton title="" to="" icon=""/>
+          <SidebarButton />
+          <SidebarButton />
+          <SidebarButton />
+          <SidebarButton />
+         </div>
+         <SidebarButton />
+
     </div>
   )
 }
