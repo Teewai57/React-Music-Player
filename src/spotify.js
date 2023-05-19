@@ -1,6 +1,6 @@
 const authEndpoint = "https://accounts.spotify.com/authorize?"
 const clientId = "6f3b1f88d810477b857651bf41eed2ff"
-const redirectUrl = "http://localhost:3000/"
+const redirectUri = "http://localhost:3000/"
 
 
 //FOR READING THE LIBRARY AND THE PLAYLISTS
